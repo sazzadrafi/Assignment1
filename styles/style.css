@@ -187,3 +187,68 @@ align-items: center;
 .flex{
   width: 60%;
 }
+/* target container */
+.target-container{
+    display: flex;
+}
+.target-title{
+    font-weight: 800;
+    font-size: 24px;
+
+}
+.target-description{
+font-size: 16px;
+}
+.rd{ border-radius: 16px;
+    padding: 40px;
+    margin: 0px 25px;
+
+}
+.target1{
+border: 1px solid white;
+background-color:rgb(255,246,244);
+
+}
+.target2{
+border: 1px solid white;
+background-color:rgb(242,246,254) ;}
+.target3{
+border: 1px solid white;
+background-color:rgb(255,253,242) ;
+}
+.target-btn{
+    font-weight: 700;
+    font-size: 16px;
+    /* text-decoration: none; */
+    color: black;
+
+}
+/* my next target section */ 
+.next{}
+/* display: flex */
+.brd{
+border: 1px solid rgb(219,220,222);
+/* box-shadow: 1px 1px 2px; */
+padding: 20px;
+border-radius: 16px;
+margin-bottom: 20px;
+
+}
+.nxt-target1{
+    display: flex;}
+.nxt-target2{
+    display: flex;}
+.nxt-target3{
+    display: flex;}
+
+.right1{
+    /* width: 40%; */
+/* align-items: center;
+justify-content: center; */
+text-align: center;
+margin-top: 40px;
+padding-right:20px ;}
+.target-title1{
+    font-weight: 800;
+    font-size: 24px;
+}
