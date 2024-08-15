@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik+Mono+One&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
+/* shared style */
+.secondary-bg{
+    background-color: l;
+}
 nav{
     display: flex;
     align-items: center;
@@ -15,7 +17,7 @@ nav li{
     
 }
 .nav-title{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 800;
 }
 /* button */
@@ -23,19 +25,19 @@ nav li{
     font-family: "Azeret Mono", monospace;
     font-weight: 600;
     border-radius: 8px;
-    font-size: 20px;
-    padding: 17px 24px;
+    font-size: 18px;
+    padding: 14px 21px;
     /* border-style: none; */
     cursor: pointer;
 
 
 }
 .btn{
-    padding: 21px 24px;
+    padding: 19px 21px;
     background-color:#0D1321 ;
     border-radius: 8px;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 32px;
     margin-bottom: 44px ;
     
@@ -62,10 +64,11 @@ nav li{
 
 
 }
-.bannner-title{
+.banner-title{
+    font-size: 48px;
     font-weight: 800px ;
     color: #0D1321;
-    font-size: 48px;
+   
 
 }
 .banner-profile{
@@ -77,5 +80,85 @@ nav li{
     background-image: url(../assets/Hero-bg.png);
     margin-top:26px ;
     
-    /* height: 600px; */
+   /* max-width: 1350px; */
+}
+/* main */
+.about{
+text-align: center;
+
+
+}
+.section-title{
+font-size:  32px; 
+}
+/* why web develop */
+.web-title{
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.70);
+    margin-bottom:16px ;
+
+}
+.web-description{
+    color:#0D1321;
+}
+.web-btn{
+    font-size: 20px;
+    color: rgba(13, 19, 33, 0.70);
+    padding: 12px 20px;
+    /* display: inline-block; */
+    
+    
+
+}
+
+/* main border */
+.brdr{
+    background-color: rgb(250,250,251);
+    border-radius: 16px;
+    margin:148px 74px 150px 88px ;
+}
+
+/* photos  */
+.webs{ 
+     border: 1px solid wheat;
+    max-width:  1140px; 
+    height: 1395px;
+    background-color: rgb(250,250,251);
+    align-items: center;
+    display: flex;
+    
+}
+.webs-container{
+    /* display: grid; */
+    gap: 25px;  
+}
+.web{
+    /* background-image: linear-gradient(rgba(209, 222, 255, 1.00 45deg)); */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border: 0px solid rgb(211, 182, 182);
+    border-radius: 16px;
+    padding: 42px;
+    /* box-shadow: 1px 1px 20px; */
+    text-align: start;
+    margin: 40px 93px 0px 93px ; 
+    background-image:linear-gradient(20deg,white,rgb(223, 222, 222)) ;
+    
+    
+}
+.web-margin{}
+.right{
+    /* width: 40%; */
+align-items: center;
+/* margin-top: 40px  ; */
+}
+.left{
+align-items: center;
+/* margin-left: 20px; */
+
+
+}
+.flex{
+  width: 60%;
 }
